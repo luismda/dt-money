@@ -1,33 +1,27 @@
 # DT Money 💸
 
-Uma aplicação web responsiva (desktop e mobile) que permite controlar todas as entradas e saídas financeiras, possibilitando também criar categorias para cada transação, além de buscar por transações
-já cadastradas.
+A responsive web application  (desktop and mobile) that allows controlling all financial inputs and outputs, also enabling the creation of new categories for each transaction, as well as the search for existing transactions.
 
-#### 👀 Detalhes
+#### 👀 Details
 
-Esse é um projeto desenvolvido no Ignite da Rocketseat durante o módulo 3, na qual os principais objetivos foram compreender o consumo de API, como lidar com performance
-no React e acessibilidade. 
+This project was developed in Ignite of [**Rocketseat**](https://github.com/rocketseat-education) during the third module, in which the main objectives were to understand the consumption of API, how to handle with performance in React.js and accessibility.
 
-Desse modo, foi utilizado o JSON Server para simular uma API real, e toda a lógica relacionada com a API foi centralizada em um contexto
-para o acesso em diversos componentes. 
+Thus, JSON Server was used to simulate a real API, and all the logic with the API was centralized in a context for access in several components.
 
-Além disso, o React Dev Tools ajudou no processo de indentificar possíveis problemas de performance. Com isso, pude conhecer 
-novos hooks do React, como o useCallback, useMemo, além da função memo, todos utilizados para otimização, incluindo a biblioteca Use Context Selector, que permitiu
-selecionar quais informações do contexto seriam observadas por um componente. 
+Additionally, React Dev Tools helped in the process of indentifying potential performance issues. So, I got to know new React hooks like `useCallback`, `useMemo`, also `memo` functions, all used for optimization, including the Use Context Selector library, which allowed selecting which context information would be observed by a component.
 
-No mais, para deixar a aplicação acessível foi utilizado o
-Radix UI, que traz componentes com toda a parte de acessibilidade pronta, porém sem estilização, dando flexibilidade na utlização como, por exemplo, modal e radio group.
+Moreover, to make the application more accessible, Radix UI was used, which brings components with all accessibility parts ready, but without style, giving flexibility of use, for example, modal and radio group.
 
-#### 📌 Acesse
+#### 📌 Links
 - 🎨 [Figma](https://www.figma.com/file/E80f9dSTgfR9MxAPnO6Xly/DT-Money-(Community)?node-id=0%3A1)
 
-#### ⚙ Funcionalidades
-- Resumo das transações de entrada, saída e total.
-- Listagem de todas as transações cadastradas.
-- Cadastro de uma nova transação.
-- Busca de transações já cadastradas.
+#### ⚙ Functionalities
+- Summary of transactions of input, output and total.
+- List all transactions.
+- Create a new transaction.
+- Search for existing transactions.
 
-#### ⚒ Ferramentas e tecnologias
+#### ⚒ Tools
 - TypeScript
 - ReactJS
 - React Hook Form
